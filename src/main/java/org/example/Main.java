@@ -34,6 +34,9 @@ public class Main {
                         if (conCode.equals(confirm)) {
                             System.out.println("Success !");
                             onFlag = false;
+                        } else {
+                            System.out.print("Wrong, Re enter confirmation code! :");
+                            conCode = scStr.nextLine();
                         }
                     }
                     System.out.print("Create new username :");
@@ -82,6 +85,9 @@ public class Main {
                         if (conCode.equals(confirm)) {
                             System.out.println("Success !");
                             onFlag = false;
+                        } else {
+                            System.out.print("Re enter confirmation code :");
+                            conCode = scStr.nextLine();
                         }
                     }
                     System.out.print("Enter your username (to verify it's you) :");
